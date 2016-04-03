@@ -209,31 +209,37 @@ body {
 }
 /* line 128, ../sass/screen.scss */
 #rproj .rw {
-  position: absolute;
   z-index: 10;
   width: 100%;
   text-align: center;
+  position: relative;
+  height: 32.5vh;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 133, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 #rproj .rw h3 {
   font-size: 20em;
   font-family: 'ostrich';
-  position: relative;
-  bottom: 0.38em;
 }
-/* line 141, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 #rproj .rw:hover span {
   display: none;
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
+  padding: 0 200px;
 }
-/* line 145, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 #rproj .rw:hover:after {
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
@@ -242,15 +248,14 @@ body {
   content: 'Join Now';
   font-size: 20em;
   font-family: 'ostrich';
-  position: relative;
-  bottom: 0.38em;
+  padding: 0 50px;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #about {
   height: 100vh;
 }
-/* line 159, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 #about h2 {
   font-size: 10em;
   font-family: 'ostrich';
@@ -259,23 +264,23 @@ body {
   top: 25px;
   margin-bottom: 20px;
 }
-/* line 167, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 #about .info {
   font-family: 'cicle';
   margin-top: 50px;
 }
-/* line 170, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #about .info p {
   padding: 25px 20px;
   font-size: 4em;
   font-weight: bold;
 }
-/* line 176, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #about .cta {
   text-align: center;
   margin-top: 50px;
 }
-/* line 179, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 #about .cta button {
   height: 75px;
   width: 250px;
@@ -290,11 +295,11 @@ body {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 189, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 #about .cta button:focus {
   outline: none;
 }
-/* line 192, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 #about .cta button:hover {
   background: #09ffd9;
   -moz-transition-duration: 1s;

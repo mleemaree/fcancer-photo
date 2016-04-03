@@ -126,29 +126,33 @@ body{
 #rproj{
   position:relative;
   .rw{
-    position: absolute;
+    // position: absolute;
+    // bottom: 0.38em;
     z-index:10;
     width:100%;
     text-align:center;
+    position:relative;
+    height:32.5vh;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
     h3{
       font-size: 20em;
       font-family: 'ostrich';
-      position:relative;
-      bottom: 0.38em;
     }
     @include transition-duration(1s);
     &:hover{
       span{
         display:none;
         @include transition-duration(1s);
+        padding: 0 200px;
       }
       &:after{
         @include transition-duration(1s);
         content: 'Join Now';
         font-size: 20em;
         font-family: 'ostrich';
-        position:relative;
-        bottom: 0.38em;
+        padding: 0 50px;
       }
     }
   }
