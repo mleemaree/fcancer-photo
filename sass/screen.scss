@@ -6,6 +6,13 @@
 @import "compass/reset";
 @import "compass/css3";
 
+$pink: #ea0e84;
+$blue: #00bff2;
+$black: #333333;
+$gray: #454545;
+$green: #00a347;
+$white: #f2f1f4;
+
 @font-face{
   font-family: 'ostrich';
   src: url('../assets/font/ostrich-black.ttf');
@@ -27,7 +34,7 @@ body{
 }
 
 #hero{
-  background-image: url('../assets/img/hero.png');
+  background-image: url('../assets/img/cancer.jpg');
   background-size: cover;
   height: 85vh;
   text-align:center;
@@ -38,30 +45,39 @@ body{
     height: 75px;
     width: 250px;
     font-family: 'ostrich';
-    background: #f10674;
+    background: $pink;
     color:#eaf4f3;
     font-size:1.8em;
     border:none;
     line-height: 2.8;
+    box-shadow: 4px 4px $black;
     @include transition-duration(1s);
     &:focus{
       outline:none;
     }
     &:hover{
-      background: #09ffd9;
+      height:100px;
+      width:300px;
+      font-size:2.5em;
+      background: $blue;
+      box-shadow: 8px 8px $black;
       @include transition-duration(1s);
     }
   }
-  #menu{
+  nav{
     position:absolute;
     right:50px;
     top:25px;
+    background:transparent;
+    box-shadow:none;
+    border:none;
+    width:50px;
     span{
       display: block;
       position: absolute;
       height: 5px;
       width: 50px;
-      background: #000;
+      background: $black;
       opacity: 1;
       right:0;
     }
@@ -71,7 +87,7 @@ body{
       display:block;
       width:50px;
       height:5px;
-      background: #000;
+      background: $black;
       top:10px;
       left: 0;
     }
@@ -85,13 +101,39 @@ body{
     position: absolute;
     top: 25px;
     left: 50px;
+    img{
+      height:200px;
+    }
+  }
+}
+
+#menu{
+  background: $black;
+  color:$white;
+  font-family:'cicle';
+  position:absolute;
+  right:0;
+  top:50px;
+  display:none;
+  padding:20px;
+  li{
+    a{
+      color:$white;
+      font-size:2em;
+      &:hover{
+        text-decoration:none;
+      }
+    }
+    &:first-child{
+      padding-bottom:20px;
+    }
   }
 }
 
 #insp{
   height: 17vh;
-  background: black;
-  color: white;
+  background: $black;
+  color: $white;
   display:table;
   h2{
     display:table-cell;
@@ -101,6 +143,9 @@ body{
     font-size: 1.7em;
     padding: 20px;
   }
+  em{
+    color: $pink;
+  }
 }
 
 .pw{
@@ -108,26 +153,25 @@ body{
 }
 
 .f{
-  background-image: url('../assets/img/redrock.jpg');
+  background-image: url('../assets/img/tcancer.jpg');
   background-size:cover;
+  background-position: center bottom;
   background-color:lavender;
 }
 
 .s{
-  background-image: url('../assets/img/lake.jpg');
+  background-image: url('../assets/img/charity.jpg');
   background-size:cover;
 }
 
 .t{
-  background-image: url('../assets/img/ice.jpg');
+  background-image: url('../assets/img/hero.png');
   background-size:cover;
 }
 
 #rproj{
   position:relative;
   .rw{
-    // position: absolute;
-    // bottom: 0.38em;
     z-index:10;
     width:100%;
     text-align:center;
@@ -139,24 +183,40 @@ body{
     h3{
       font-size: 20em;
       font-family: 'ostrich';
+      span{
+        text-shadow: 4px 4px $white;
+      }
     }
     @include transition-duration(1s);
-    &:hover{
-      span{
-        display:none;
-        @include transition-duration(1s);
-        padding: 0 200px;
-      }
-      &:after{
-        @include transition-duration(1s);
-        content: 'Join Now';
-        font-size: 20em;
-        font-family: 'ostrich';
-        padding: 0 50px;
-      }
+    // &:hover{
+    //   @include transition-duration(1s);
+    //   span{
+    //     display:none;
+    //     @include transition-duration(1s);
+    //     padding: 0 200px;
+    //   }
+    //   &:after{
+    //     @include transition-duration(1s);
+    //     content: 'Join Now';
+    //     font-size: 20em;
+    //     font-family: 'ostrich';
+    //     padding: 0 50px;
+    //   }
+    // }
+    .go{
+      color:$green;
+      text-shadow: 4px 4px $black;
+      cursor: pointer;
     }
   }
 }
+
+// .svg{
+//   height: 233px;
+//   #join{
+//     visibility:hidden;
+//   }
+// }
 
 #about{
   height:100vh;
@@ -175,6 +235,7 @@ body{
       padding: 25px 20px;
       font-size: 4em;
       font-weight:bold;
+      color:$black;
     }
   }
   .cta{
@@ -184,17 +245,22 @@ body{
       height: 75px;
       width: 250px;
       font-family: 'ostrich';
-      background: #f10674;
+      background: $pink;
       color:#eaf4f3;
       font-size:1.8em;
       border:none;
       line-height: 2.8;
+      box-shadow: 4px 4px $black;
       @include transition-duration(1s);
       &:focus{
         outline:none;
       }
       &:hover{
-        background: #09ffd9;
+        height:100px;
+        width:300px;
+        font-size:2.5em;
+        background: $blue;
+        box-shadow: 8px 8px $black;
         @include transition-duration(1s);
       }
     }
