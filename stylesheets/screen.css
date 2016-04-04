@@ -89,11 +89,12 @@ body {
 #hero {
   background-image: url("../assets/img/cancer.jpg");
   background-size: cover;
+  background-position: center center;
   height: 85vh;
   text-align: center;
   position: relative;
 }
-/* line 42, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 #hero button {
   position: relative;
   top: 65vh;
@@ -111,11 +112,11 @@ body {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 55, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 #hero button:focus {
   outline: none;
 }
-/* line 58, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 #hero button:hover {
   height: 100px;
   width: 300px;
@@ -127,7 +128,7 @@ body {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 67, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 #hero nav {
   position: absolute;
   right: 50px;
@@ -137,7 +138,7 @@ body {
   border: none;
   width: 50px;
 }
-/* line 75, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 #hero nav span {
   display: block;
   position: absolute;
@@ -147,7 +148,7 @@ body {
   opacity: 1;
   right: 0;
 }
-/* line 84, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 #hero nav span:before, #hero nav span:after {
   position: absolute;
   content: '';
@@ -158,11 +159,11 @@ body {
   top: 10px;
   left: 0;
 }
-/* line 94, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 #hero nav span:before {
   top: 20px;
 }
-/* line 98, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 #hero #logo {
   font-size: 8em;
   font-family: 'ostrich';
@@ -170,15 +171,15 @@ body {
   top: 25px;
   left: 50px;
 }
-/* line 104, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 #hero #logo img {
   height: 200px;
 }
 
-/* line 110, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 #menu {
   background: #333333;
-  color: #f2f1f4;
+  color: #eeeeee;
   font-family: 'cicle';
   position: absolute;
   right: 0;
@@ -186,28 +187,28 @@ body {
   display: none;
   padding: 20px;
 }
-/* line 120, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #menu li a {
-  color: #f2f1f4;
+  color: #eeeeee;
   font-size: 2em;
 }
-/* line 123, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 #menu li a:hover {
   text-decoration: none;
 }
-/* line 127, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 #menu li:first-child {
   padding-bottom: 20px;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 #insp {
   height: 17vh;
   background: #333333;
-  color: #f2f1f4;
+  color: #eeeeee;
   display: table;
 }
-/* line 138, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 #insp h2 {
   display: table-cell;
   vertical-align: middle;
@@ -216,17 +217,17 @@ body {
   font-size: 1.7em;
   padding: 20px;
 }
-/* line 146, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 #insp em {
   color: #ea0e84;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .pw {
   height: 42.5vh;
 }
 
-/* line 155, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .f {
   background-image: url("../assets/img/tcancer.jpg");
   background-size: cover;
@@ -234,23 +235,23 @@ body {
   background-color: lavender;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .s {
   background-image: url("../assets/img/charity.jpg");
   background-size: cover;
 }
 
-/* line 167, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .t {
   background-image: url("../assets/img/hero.png");
   background-size: cover;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 #rproj {
   position: relative;
 }
-/* line 174, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 #rproj .rw {
   z-index: 10;
   width: 100%;
@@ -268,27 +269,28 @@ body {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 183, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 #rproj .rw h3 {
   font-size: 20em;
   font-family: 'ostrich';
 }
-/* line 186, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #rproj .rw h3 span {
-  text-shadow: 4px 4px #f2f1f4;
+  text-shadow: 4px 4px #eeeeee;
 }
-/* line 206, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 #rproj .rw .go {
   color: #00a347;
   text-shadow: 4px 4px #333333;
   cursor: pointer;
 }
 
-/* line 221, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 #about {
   height: 100vh;
+  background: #eeeeee;
 }
-/* line 223, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 #about h2 {
   font-size: 10em;
   font-family: 'ostrich';
@@ -297,24 +299,24 @@ body {
   top: 25px;
   margin-bottom: 20px;
 }
-/* line 231, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 #about .info {
   font-family: 'cicle';
   margin-top: 50px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 #about .info p {
   padding: 25px 20px;
   font-size: 4em;
   font-weight: bold;
   color: #333333;
 }
-/* line 241, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 #about .cta {
   text-align: center;
   margin-top: 50px;
 }
-/* line 244, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 #about .cta button {
   height: 75px;
   width: 250px;
@@ -330,11 +332,11 @@ body {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
-/* line 255, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 #about .cta button:focus {
   outline: none;
 }
-/* line 258, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 #about .cta button:hover {
   height: 100px;
   width: 300px;
@@ -345,4 +347,30 @@ body {
   -o-transition-duration: 1s;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
+}
+
+@media only screen and (max-width: 772px) {
+  /* line 273, ../sass/screen.scss */
+  #hero #logo {
+    left: 25px;
+  }
+  /* line 275, ../sass/screen.scss */
+  #hero #logo img {
+    height: 100px;
+  }
+
+  /* line 280, ../sass/screen.scss */
+  #hero nav {
+    right: 25px;
+  }
+
+  /* line 284, ../sass/screen.scss */
+  #tit {
+    display: none;
+  }
+
+  /* line 287, ../sass/screen.scss */
+  #about .info p {
+    font-size: 1.4em;
+  }
 }
