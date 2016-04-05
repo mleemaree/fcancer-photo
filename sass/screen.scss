@@ -19,14 +19,8 @@ $white: #eeeeee;
 }
 
 @font-face{
-  font-family: 'cicle';
-  src: url('../assets/font/cicle-fina.ttf');
-}
-
-@font-face{
-  font-family: 'cicle';
-  src: url('../assets/font/cicle-bold.ttf');
-  font-weight:bold;
+  font-family: 'myriad';
+  src: url('../assets/font/MyriadPro-Regular.otf');
 }
 
 body{
@@ -51,17 +45,12 @@ body{
     font-size:1.8em;
     border:none;
     line-height: 2.8;
-    box-shadow: 4px 4px $black;
     @include transition-duration(1s);
     &:focus{
       outline:none;
     }
     &:hover{
-      height:100px;
-      width:300px;
-      font-size:2.5em;
       background: $blue;
-      box-shadow: 8px 8px $black;
       @include transition-duration(1s);
     }
   }
@@ -111,7 +100,7 @@ body{
 #menu{
   background: $black;
   color:$white;
-  font-family:'cicle';
+  font-family:'myriad';
   position:absolute;
   right:0;
   top:50px;
@@ -184,9 +173,6 @@ body{
     h3{
       font-size: 20em;
       font-family: 'ostrich';
-      span{
-        text-shadow: 4px 4px $white;
-      }
     }
     @include transition-duration(1s);
     // &:hover{
@@ -206,8 +192,8 @@ body{
     // }
     .go{
       color:$green;
-      text-shadow: 4px 4px $black;
       cursor: pointer;
+      white-space: nowrap;
     }
   }
 }
@@ -231,12 +217,11 @@ body{
     margin-bottom:20px;
   }
   .info{
-    font-family: 'cicle';
+    font-family: 'myriad';
     margin-top: 50px;
     p{
       padding: 25px 20px;
       font-size: 4em;
-      font-weight:bold;
       color:$black;
     }
   }
@@ -252,17 +237,12 @@ body{
       font-size:1.8em;
       border:none;
       line-height: 2.8;
-      box-shadow: 4px 4px $black;
       @include transition-duration(1s);
       &:focus{
         outline:none;
       }
       &:hover{
-        height:100px;
-        width:300px;
-        font-size:2.5em;
         background: $blue;
-        box-shadow: 8px 8px $black;
         @include transition-duration(1s);
       }
     }
