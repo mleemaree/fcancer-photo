@@ -14,109 +14,41 @@
   <![endif]-->
 </head>
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div id="hero" class="col-xs-12">
-        <div id="logo">
-          <img src="assets/img/fcancerlogo.png" alt="FCancer">
+  <div id="bt"></div>
+  <div id="bl"></div>
+  <div id="br"></div>
+  <div id="bb"></div>
+  <div id="lp">
+    <div id="content-wrapper">
+      <div id="side">
+        <img id="logo" src="assets/img/logo.png" alt="FCancer Logo">
+        <div id="learn-more" data-start="padding-top:42vh;" data-100-start="padding-top:55vh;">
+          <p class="lt">FCancer is where photographs come together to fight cancer.
+            Charities need ​<em>you</em>​ to tell their story</p>
+          <button type="button" class="inv">Get involved now</button>
         </div>
-        <button class="involved">Get Involved</button>
       </div>
-    </div>
-    <div class="row">
-      <a name="recent"></a>
-      <div id="insp" class="col-xs-12">
-        <h2 id="c">FCancer is where photographs come together to fight cancer.   Charities need <em>YOU</em>
-        to tell their story.</h2>
-      </div>
-    </div>
-    <div id="rproj">
-      <div id="samples" class="row">
-        <div class="pw hidden-xs col-sm-4 f"></div>
-        <div class="pw hidden-xs col-sm-4 s"></div>
-        <div class="pw hidden-xs col-sm-4 t"></div>
-      </div>
-      <div class="rw">
-        <h3><span id="tit">Recent
 
-          <!-- <svg version="1.1" id="svg-titles" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-          	 viewBox="0 0 652.2 147.6" enable-background="new 0 0 652.2 147.6" xml:space="preserve">
-             <g id="rec">
-               <path fill="#231F20" id="recent" d="M146.1,74c0.3-0.4,0.6-0.7,0.9-1c5.9-7.1,8.8-17.4,8.8-31c0-13.7-2.9-24-8.8-30.8C140.6,3.7,131.1,0,118.4,0
-               	H87.8v147.4h18.8v-63h2.4h9.4c12.5,0,18.8,6.5,18.8,19.4v43.6h19v-43.6c0-6.1-1-11.6-2.9-16.4c-1.9-4.8-4.7-8.9-8.3-12.4
-               	C145.4,74.7,145.8,74.4,146.1,74z M109,65.4h-2.4V19h11.8c3.1,0,5.8,0.3,8.1,0.8c2.3,0.5,4.3,1.6,5.8,3.3c1.5,1.7,2.7,4,3.5,7
-               	s1.2,7,1.2,11.9c0,8.8-1.5,15.1-4.4,18.8c-0.5,0.7-1.8,1.6-3.7,2.8c-1.9,1.2-5.4,1.8-10.5,1.8H109z
-               	M232.2,19V0.2h-61v147.4h61v-18.8H190V83.2h42.2V64.4H190V19H232.2L232.2,19z
-               	M297.6,143.7c4.1-2.6,7.3-5.2,9.4-7.9c5.7-7.3,8.6-17.5,8.6-30.4V96h-19v9.4c0,8.5-1.5,14.8-4.4,18.8
-               	c-0.8,0.9-2,1.9-3.7,3c-1.7,1.1-4.3,1.6-7.9,1.6c-3.6,0-6.3-0.5-8-1.6c-1.7-1.1-2.9-2.1-3.6-3c-3.1-3.9-4.6-10.1-4.6-18.8V42.2
-               	c0-5.7,0.6-10.2,1.7-13.4c1.1-3.2,2.6-5.5,4.3-6.9c1.7-1.4,3.5-2.2,5.3-2.5c1.8-0.3,3.4-0.4,4.9-0.4c1.3,0,2.9,0.1,4.8,0.4
-               	c1.9,0.3,3.6,1.1,5.3,2.5c1.7,1.4,3.1,3.7,4.2,6.9c1.1,3.2,1.7,7.7,1.7,13.4v9.4h19v-9.4c0-12.9-2.9-23.1-8.6-30.4
-               	c-2.1-2.7-5.3-5.3-9.4-7.8c-4.1-2.5-9.8-3.8-17-3.8c-7.2,0-12.9,1.3-17.1,3.8c-4.2,2.5-7.4,5.1-9.5,7.8c-5.6,7.2-8.4,17.3-8.4,30.4
-               	v63.2c0,13.1,2.8,23.2,8.4,30.4c1.1,1.3,2.4,2.7,3.9,4.1c1.5,1.4,3.4,2.7,5.6,3.8c2.2,1.1,4.7,2.1,7.5,2.8c2.8,0.7,6,1.1,9.6,1.1
-               	C287.8,147.6,293.4,146.3,297.6,143.7z
-               	M384.2,19V0.2h-61v147.4h61v-18.8H342V83.2h42.2V64.4H342V19H384.2L384.2,19z
-               	M416.4,58.2l36,89.2h16V0h-19v89.2L413.4,0h-15.8v147.4h18.8V58.2L416.4,58.2z
-               	M566,0h-83.4v19h32.2v128.4h19V19H566V0L566,0z"/>
-              </g>
-              <g id="jo">
-                <path id="join" d="M49.4,144c4-2.4,6.9-4.8,8.8-7.2c5.3-6.7,8-16.1,8-28.4V0.2H47.4v108.2c0,7.7-1.3,13.2-3.8,16.4c-0.7,0.9-1.7,1.8-3.2,2.7
-                	c-1.5,0.9-3.9,1.3-7.2,1.3c-1.3,0-2.8-0.1-4.4-0.3s-3.1-0.9-4.6-2.2c-1.5-1.3-2.7-3.3-3.7-6.1s-1.5-6.7-1.5-11.8v-9.6H0.2v9.6
-                	c0,12.3,2.7,21.7,8,28.4c2,2.4,5,4.8,9,7.2c4,2.4,9.3,3.6,16,3.6C40,147.6,45.4,146.4,49.4,144z
-                	M133.3,143.6c4.2-2.5,7.4-5.1,9.5-7.8c5.6-7.2,8.4-17.3,8.4-30.4V42c0-13.1-2.8-23.2-8.4-30.4c-2.1-2.7-5.3-5.3-9.5-7.8
-                	c-4.2-2.5-9.9-3.8-17.1-3.8c-3.6,0-6.8,0.4-9.6,1.1c-2.8,0.7-5.3,1.7-7.5,2.8C96.9,5,95,6.3,93.5,7.6c-1.5,1.3-2.8,2.7-3.9,4
-                	C84,18.8,81.2,28.9,81.2,42v63.4c0,13.1,2.8,23.2,8.4,30.4c2.1,2.7,5.3,5.3,9.6,7.8c4.3,2.5,9.9,3.8,17,3.8
-                	C123.4,147.4,129.1,146.1,133.3,143.6z M121,19.4c1.9,0.3,3.7,1.1,5.4,2.5c1.7,1.4,3.2,3.7,4.3,6.8c1.1,3.1,1.7,7.6,1.7,13.3v63.4
-                	c0,5.9-0.6,10.4-1.7,13.5c-1.1,3.1-2.6,5.4-4.3,6.8c-1.7,1.4-3.5,2.2-5.4,2.5c-1.9,0.3-3.5,0.4-4.8,0.4c-1.5,0-3.1-0.1-4.9-0.4
-                	c-1.8-0.3-3.6-1.1-5.3-2.5c-1.7-1.4-3.2-3.7-4.3-6.8c-1.1-3.1-1.7-7.6-1.7-13.5V42c0-5.7,0.6-10.2,1.7-13.3c1.1-3.1,2.6-5.4,4.3-6.8
-                	c1.7-1.4,3.5-2.2,5.3-2.5c1.8-0.3,3.4-0.4,4.9-0.4C117.5,19,119.1,19.1,121,19.4z
-                	M187,147.6V0.2h-18.8v147.4H187L187,147.6L187,147.6z
-                	M221.4,58.2l36,89.2h16V0h-19v89.2L218.4,0h-15.8v147.4h18.8V58.2L221.4,58.2z
-                	M368,58.2l36,89.2h16V0h-19v89.2L365,0h-15.8v147.4H368V58.2L368,58.2z
-                	M486.3,143.6c4.2-2.5,7.4-5.1,9.5-7.8c5.6-7.2,8.4-17.3,8.4-30.4V42c0-13.1-2.8-23.2-8.4-30.4c-2.1-2.7-5.3-5.3-9.5-7.8
-                	c-4.2-2.5-9.9-3.8-17.1-3.8c-3.6,0-6.8,0.4-9.6,1.1c-2.8,0.7-5.3,1.7-7.5,2.8c-2.2,1.1-4.1,2.4-5.6,3.7c-1.5,1.3-2.8,2.7-3.9,4
-                	c-5.6,7.2-8.4,17.3-8.4,30.4v63.4c0,13.1,2.8,23.2,8.4,30.4c2.1,2.7,5.3,5.3,9.6,7.8c4.3,2.5,9.9,3.8,17,3.8
-                	C476.4,147.4,482.1,146.1,486.3,143.6z M474,19.4c1.9,0.3,3.7,1.1,5.4,2.5c1.7,1.4,3.2,3.7,4.3,6.8c1.1,3.1,1.7,7.6,1.7,13.3v63.4
-                	c0,5.9-0.6,10.4-1.7,13.5c-1.1,3.1-2.6,5.4-4.3,6.8c-1.7,1.4-3.5,2.2-5.4,2.5c-1.9,0.3-3.5,0.4-4.8,0.4c-1.5,0-3.1-0.1-4.9-0.4
-                	c-1.8-0.3-3.6-1.1-5.3-2.5c-1.7-1.4-3.2-3.7-4.3-6.8c-1.1-3.1-1.7-7.6-1.7-13.5V42c0-5.7,0.6-10.2,1.7-13.3c1.1-3.1,2.6-5.4,4.3-6.8
-                	c1.7-1.4,3.5-2.2,5.3-2.5c1.8-0.3,3.4-0.4,4.9-0.4C470.5,19,472.1,19.1,474,19.4z
-                	M632.8,0.2l-20.8,94l-20.6-94h-15.2l-20.8,94l-20.8-94h-19.4l32.6,147.4H563l20.8-94.2l20.6,94.2h15.2L652.2,0.2H632.8
-                	L632.8,0.2z"/>
-              </g>
-          </svg> -->
-        </span></h3>
-      </div>
-      <div id="secr" class="row">
-        <div class="pw col-xs-12 col-sm-4 s"></div>
-        <div class="pw col-xs-12 col-sm-4 t"></div>
-        <div class="pw col-xs-12 col-sm-4 f"></div>
+      <div class="slider">
+          <img id="camera" src="assets/img/camera.png" alt="Camera">
       </div>
     </div>
+
+    <div class="blur" data-200-start="opacity:1" data-300-start="opacity:0;"></div>
+    <div class="angle" data-start="transform: rotate(8deg);" data-160-start="transform:rotate(-8deg);" data--350-center="opacity: 1;" data--600-center="opacity:0;"></div>
+
+    <div class="container" id="how" data-bottom-top="opacity:0;" data--100-top="opacity:1;">
+      <img src="assets/img/how.png" alt="How To">
+      <button type="button" class="inv">Get involved now</button>
+    </div>
+  </div><!--END content-wrapper -->
+  <div id="chat" class="hide">
+    <img id="back" src="assets/img/back.svg" alt="Back Button">
   </div>
-  <a name="about"></a>
-  <div id="about" class="container-fluid">
-    <div class="row">
-      <div id="about" class="col-xs-12">
-        <div class="info">
-          <p>We’re a non-profit organization on
-            a mission to build an online community,
-            ready to donate their time and skills to
-            cancer-related initiatives.</p>
-          <p>Simply speaking, Fcancer is a charity helping charities. We pair you, the photographer,
-          with charities needing photos.</p>
-        </div>
-        <div class="cta">
-          <button class="involved">Get Involved</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <script src="./bower_components/jquery/dist/jquery.js" type="text/javascript"></script>
+  <script src="./bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
   <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-  <script src="./bower_components/waypoints/lib/jquery.waypoints.js"></script>
-  <script src="./bower_components/svg-morpheus/source/js/svg-morpheus.js"></script>
-  <script src="script.js" type="text/javascript"></script>
+  <script src="./bower_components/skrollr/dist/skrollr.min.js"></script>
+  <script src="./script.js" type="text/javascript"></script>
+
 </body>
 </html>

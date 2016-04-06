@@ -1,72 +1,30 @@
-$(function(){
+// var s = skrollr.init();
 
-  var waypoint = new Waypoint({
-    element: document.getElementById('logo'),
-    handler: function(direction) {
-      if(direction === 'down'){
-        $('html, body').animate({
-          scrollTop: $("#insp").offset().top
-        }, 600);
-      }
-    }
-  });
+jQuery(document).ready(function($){
 
-  var waypoint2 = new Waypoint({
-    element: document.getElementById('samples'),
-    handler: function(direction) {
-      if(direction === 'down'){
-        $('html, body').animate({
-          scrollTop: $("#about").offset().top
-        }, 600);
-      }
-    }
-  });
-
-  $('.navbar').on('click', function(){
-    $('#menu').slideToggle();
-  });
-
-  $('.rw').on("mouseenter", function(e){
-    $('#tit')
-      .fadeOut(300,function(){
-        $(this)
-          .html('Join Now')
-          .addClass('go');
-      })
-      .fadeIn(300)
-      .on('click', function(){
-        console.log('go to chat');
-      });
-  });
-
-  $('.rw').on('mouseleave' || 'focusout', function(e){
-    $('#tit')
-      .fadeOut(300, function(){
-        $(this)
-        .html('Recent')
-        .removeClass('go');
-      })
-      .fadeIn(300);
-  });
-
-  $('.involved').on('click', function(){
-    console.log('go to chat');
-  });
-
-  function scrollToAnchor(aid){
-    var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top}, 600);
+  function openChat(){
+    $('#lp').addClass('hide');
+    $('#chat').removeClass('hide');
+    $("html, body").animate({ scrollTop: 0 });
+    $('body').addClass('x');
+    $('#br').removeClass('shut');
   }
 
-  $("#r").click(function() {
-   scrollToAnchor('recent');
-   waypoint.disable();
-  });
-  $("#a").click(function() {
-   scrollToAnchor('about');
-   waypoint.disable();
-   waypoint2.disable();
+  function closeChat(){
+    $('#lp').removeClass('hide');
+    $('#chat').addClass('hide');
+    $('body').removeClass('x');
+    $('#br').removeClass('shut');
+  }
+
+  $('.inv').on('click', function(){
+    $('#br').addClass('shut');
+    setTimeout(openChat, 2700);
   });
 
+  $('#back').on('click', function(){
+    $('#br').addClass('shut');
+    setTimeout(closeChat, 2700);
+  });
 
 });

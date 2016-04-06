@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 344.9 232.8" enable-background="new 0 0 344.9 232.8" xml:space="preserve">
+<g id="Background">
+	<rect x="-227.6" y="-278.3" fill="none" width="800" height="800"/>
+</g>
+<g id="Objects">
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_1_" d="M172.4,404.8c-156.4,0-283.1-126.8-283.1-283.1c0-156.4,126.7-283.1,283.1-283.1
+					c156.4,0,283.1,126.7,283.1,283.1"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<polygon clip-path="url(#SVGID_2_)" fill="none" points="37.2,266.1 374.6,71.3 599.9,296.5 356.6,539.9 285.4,578.5 
+				285.4,524.9 52.1,291.6 30,270.4 33.2,266.5 			"/>
+		</g>
+		<g>
+			<rect x="0" y="33.6" fill="#414042" width="344.9" height="199.3"/>
+			<circle fill="#D1D3D4" cx="212.1" cy="133.2" r="86.3"/>
+			<rect x="0" y="33.6" fill="#D1D3D4" width="344.9" height="37.7"/>
+			<rect x="0" y="195.1" fill="#D1D3D4" width="344.9" height="37.7"/>
+			<circle fill="#22363F" cx="212.1" cy="133.2" r="73.5"/>
+			<circle fill="#4E7387" stroke="#578CA3" stroke-width="5" stroke-miterlimit="10" cx="212.1" cy="133.2" r="53.1"/>
+			<circle fill="#204856" cx="212.1" cy="133.2" r="28.9"/>
+			<circle fill="#092830" cx="212.1" cy="133.2" r="18.2"/>
+			<path fill="#D1D3D4" d="M277.6,50.4c0,3.5-3,6.4-6.6,6.4H157.1c-3.7,0-6.6-2.9-6.6-6.4V6.4c0-3.5,3-6.4,6.6-6.4h113.9
+				c3.7,0,6.6,2.9,6.6,6.4V50.4z"/>
+			<circle opacity="0.6" fill="#FFFFFF" cx="178.4" cy="99.2" r="17.9"/>
+			<circle opacity="0.6" fill="#FFFFFF" cx="195.4" cy="121.7" r="5.7"/>
+			<path fill="#4E7387" d="M267.4,31.8c0,3.5-2.9,6.4-6.4,6.4h-53.5c-3.5,0-6.4-2.9-6.4-6.4V12.6c0-3.5,2.9-6.4,6.4-6.4H261
+				c3.5,0,6.4,2.9,6.4,6.4V31.8z"/>
+			<path fill="#22363F" d="M189.7,18.6c0,3.5-2.9,6.4-6.4,6.4h-11.2c-3.5,0-6.4-2.9-6.4-6.4v-3.4c0-3.5,2.9-6.4,6.4-6.4h11.2
+				c3.5,0,6.4,2.9,6.4,6.4V18.6z"/>
+			<circle fill="#BE1E2D" cx="183.2" cy="34" r="4.5"/>
+			<rect x="30" y="22.2" fill="#939598" width="42.4" height="11.4"/>
+			<rect x="317.1" y="33.6" opacity="0.3" fill="#939598" width="27.8" height="199.1"/>
+			<rect x="0" y="33.6" opacity="0.3" fill="#939598" width="13.9" height="199.1"/>
+		</g>
+	</g>
+</g>
+</svg>

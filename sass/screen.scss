@@ -3,7 +3,6 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
 @import "compass/css3";
 
 $pink: #ea0e84;
@@ -11,260 +10,191 @@ $blue: #00bff2;
 $black: #333333;
 $gray: #454545;
 $green: #00a347;
-$white: #eeeeee;
+$white: #efefef;
 
-@font-face{
-  font-family: 'ostrich';
-  src: url('../assets/font/ostrich-black.ttf');
-}
-
+// @font-face{
+//   font-family: 'ostrich';
+//   src: url('../assets/font/ostrich-black.ttf');
+// }
+//
 @font-face{
   font-family: 'myriad';
   src: url('../assets/font/MyriadPro-Regular.otf');
 }
 
 body{
+  background: $white;
   overflow-x: hidden;
 }
 
-#hero{
-  background-image: url('../assets/img/cancer.jpg');
-  background-size: cover;
-  background-position: center center;
-  height: 85vh;
-  text-align:center;
-  position:relative;
-  button{
-    position:relative;
-    top:65vh;
-    height: 75px;
-    width: 250px;
-    font-family: 'ostrich';
-    background: $pink;
-    color:#eaf4f3;
-    font-size:1.8em;
-    border:none;
-    line-height: 2.8;
-    @include transition-duration(1s);
-    &:focus{
-      outline:none;
-    }
-    &:hover{
-      background: $blue;
-      @include transition-duration(1s);
-    }
-  }
-  nav{
-    position:absolute;
-    right:50px;
-    top:25px;
-    background:transparent;
-    box-shadow:none;
-    border:none;
-    width:50px;
-    span{
-      display: block;
-      position: absolute;
-      height: 5px;
-      width: 50px;
-      background: $black;
-      opacity: 1;
-      right:0;
-    }
-    span:before, span:after{
-      position:absolute;
-      content: '';
-      display:block;
-      width:50px;
-      height:5px;
-      background: $black;
-      top:10px;
-      left: 0;
-    }
-    span:before{
-      top:20px;
-    }
-  }
-  #logo{
-    font-size: 8em;
-    font-family: 'ostrich';
-    position: absolute;
-    top: 25px;
-    left: 50px;
-    img{
-      height:200px;
-    }
-  }
+.x{
+  overflow-y:hidden;
 }
 
-#menu{
-  background: $black;
-  color:$white;
-  font-family:'myriad';
-  position:absolute;
-  right:0;
-  top:50px;
-  display:none;
-  padding:20px;
-  li{
-    a{
-      color:$white;
-      font-size:2em;
-      &:hover{
-        text-decoration:none;
-      }
-    }
-    &:first-child{
-      padding-bottom:20px;
-    }
-  }
+#bt{
+  width:100vw;
+  height:40px;
+  background:$white;
+  position:fixed;
+  z-index:100;
+  top:0;
 }
 
-#insp{
-  height: 17vh;
-  background: $black;
-  color: $white;
-  display:table;
-  h2{
-    display:table-cell;
-    vertical-align: middle;
-    text-align:center;
-    font-family: 'ostrich';
-    font-size: 1.7em;
-    padding: 20px;
-  }
-  em{
-    color: $pink;
-  }
+#bb{
+  width:100vw;
+  height:40px;
+  background:$white;
+  position:fixed;
+  z-index:100;
+  bottom:0;
 }
 
-.pw{
-  height: 42.5vh;
-}
-
-.f{
-  background-image: url('../assets/img/tcancer.jpg');
-  background-size:cover;
-  background-position: center bottom;
-  background-color:lavender;
-}
-
-.s{
-  background-image: url('../assets/img/charity.jpg');
-  background-size:cover;
-}
-
-.t{
-  background-image: url('../assets/img/hero.png');
-  background-size:cover;
-}
-
-#rproj{
-  position:relative;
-  .rw{
-    z-index:10;
-    width:100%;
-    text-align:center;
-    position:relative;
-    height:32.5vh;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    h3{
-      font-size: 20em;
-      font-family: 'ostrich';
-    }
-    @include transition-duration(1s);
-    // &:hover{
-    //   @include transition-duration(1s);
-    //   span{
-    //     display:none;
-    //     @include transition-duration(1s);
-    //     padding: 0 200px;
-    //   }
-    //   &:after{
-    //     @include transition-duration(1s);
-    //     content: 'Join Now';
-    //     font-size: 20em;
-    //     font-family: 'ostrich';
-    //     padding: 0 50px;
-    //   }
-    // }
-    .go{
-      color:$green;
-      cursor: pointer;
-      white-space: nowrap;
-    }
-  }
-}
-
-// .svg{
-//   height: 233px;
-//   #join{
-//     visibility:hidden;
-//   }
-// }
-
-#about{
+#bl{
   height:100vh;
-  background: $white;
-  h2{
-    font-size:10em;
-    font-family: 'ostrich';
-    position: relative;
-    left: 50px;
-    top: 25px;
-    margin-bottom:20px;
-  }
-  .info{
-    font-family: 'myriad';
-    margin-top: 50px;
-    p{
-      padding: 25px 20px;
-      font-size: 4em;
-      color:$black;
-    }
-  }
-  .cta{
-    text-align:center;
-    margin-top:50px;
-    button{
-      height: 75px;
-      width: 250px;
-      font-family: 'ostrich';
-      background: $pink;
-      color:#eaf4f3;
-      font-size:1.8em;
-      border:none;
-      line-height: 2.8;
-      @include transition-duration(1s);
-      &:focus{
-        outline:none;
-      }
-      &:hover{
-        background: $blue;
-        @include transition-duration(1s);
-      }
-    }
+  width:40px;
+  background:$white;
+  position:fixed;
+  z-index:100;
+  left:0;
+  top:0;
+}
+
+#br{
+  height:100vh;
+  width:100vw;
+  background:$white;
+  position:fixed;
+  z-index:100;
+  right:-97.1vw;
+  top:0;
+  -webkit-transition-duration: 3s;
+  transition-duration: 3s;
+}
+
+
+.shut{
+  -webkit-transition-duration: 3s;
+  transition-duration: 3s;
+  -ms-transform: translate(-97.1vw,0); /* IE 9 */
+  -webkit-transform: translate(-97.1vw,0); /* Safari */
+  transform:translate(-97.1vw, 0);
+}
+
+.hide{
+  display:none;
+}
+
+#chat{
+  height:100vh;
+  width:100vw;
+  background-image: url('../assets/img/dots.png');
+  background-size:cover;
+  overflow-y:hidden;
+}
+
+#back{
+  height: 50px;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+  cursor: pointer;
+}
+
+#content-wrapper{
+  display:table;
+  height:100vh;
+  width:100vw;
+  font-family:'myriad';
+  position:relative;
+  z-index:10;
+}
+
+#side{
+  display:table;
+  width:55vh;
+  position:relative;
+  z-index:110;
+}
+
+#logo{
+  width: 175px;
+  margin: 70px;
+  position:absolute;
+}
+
+#camera{
+  position:relative;
+  margin-bottom:10px;
+}
+
+#learn-more{
+  display:table-cell;
+  vertical-align:middle;
+  padding-top: 42vh;
+  height:100vh;
+}
+
+.lt{
+  font-size:2em;
+  width:122%;
+  margin-left:80px;
+  color: $black;
+}
+
+.blur{
+  background-image: url('../assets/img/cancer.jpg');
+  background-size:cover;
+  z-index:0;
+  position:absolute;
+  top:0;
+  height:100vh;
+  width:100vw;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.angle{
+  height: 80vh;
+  width: 200vw;
+  background: rgba(201,233,225, 1);
+  position: absolute;
+  top: 50vh;
+  z-index: 1;
+  transform: rotate(8deg);
+  left: -50vw;
+}
+
+.inv{
+  display: block;
+  margin:38px auto 0;
+  background: transparent;
+  border: 2px solid $black;
+  color: $black;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  z-index:200;
+  position:relative;
+  &:focus{
+    outline:none;
   }
 }
 
-@media only screen and (max-width: 772px) {
-  #hero #logo{
-    left:25px;
-    img{
-      height: 100px;
-    }
+.slider{
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  img{
+    height:600px;
   }
+}
 
-  #hero nav{
-    right:25px;
-  }
 
-  #tit{
-    display:none;
-  }
-  #about .info p{
-    font-size:1.4em;
+#how{
+  margin-top:400px;
+  img{
+    width:100%;
   }
 }
