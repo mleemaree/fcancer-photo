@@ -52,32 +52,47 @@ body {
 #br {
   height: 100vh;
   width: 100vw;
-  background: #efefef;
+  background: #333333;
   position: fixed;
   z-index: 100;
-  right: -97.1vw;
+  right: -100vw;
   top: 0;
-  -webkit-transition-duration: 3s;
-  transition-duration: 3s;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
+#phone {
+  background-image: url("../assets/img/flatphone.png");
+  background-size: contain;
+  height: 601px;
+  width: 300px;
+  position: absolute;
+  z-index: 110;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 88, ../sass/screen.scss */
 .shut {
   -webkit-transition-duration: 3s;
   transition-duration: 3s;
-  -ms-transform: translate(-97.1vw, 0);
+  -ms-transform: translate(-100vw, 0);
   /* IE 9 */
-  -webkit-transform: translate(-97.1vw, 0);
+  -webkit-transform: translate(-100vw, 0);
   /* Safari */
-  transform: translate(-97.1vw, 0);
+  transform: translate(-100vw, 0);
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .hide {
   display: none;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 #chat {
   height: 100vh;
   width: 100vw;
@@ -86,7 +101,7 @@ body {
   overflow-y: hidden;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 #back {
   height: 50px;
   position: absolute;
@@ -95,7 +110,7 @@ body {
   cursor: pointer;
 }
 
-/* line 103, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 #content-wrapper {
   display: table;
   height: 100vh;
@@ -105,7 +120,7 @@ body {
   z-index: 10;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 #side {
   display: table;
   width: 55vh;
@@ -113,20 +128,20 @@ body {
   z-index: 110;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 #logo {
   width: 175px;
   margin: 70px;
   position: absolute;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 #camera {
   position: relative;
   margin-bottom: 10px;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 #learn-more {
   display: table-cell;
   vertical-align: middle;
@@ -134,15 +149,15 @@ body {
   height: 100vh;
 }
 
-/* line 137, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 .lt {
   font-size: 2em;
   width: 122%;
   margin-left: 80px;
-  color: #333333;
+  color: #efefef;
 }
 
-/* line 144, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 .blur {
   background-image: url("../assets/img/cancer.jpg");
   background-size: cover;
@@ -158,11 +173,11 @@ body {
   filter: blur(5px);
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .angle {
   height: 80vh;
   width: 200vw;
-  background: #c9e9e1;
+  background: #333333;
   position: absolute;
   top: 50vh;
   z-index: 1;
@@ -170,39 +185,39 @@ body {
   left: -50vw;
 }
 
-/* line 170, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .inv {
   display: block;
   margin: 38px auto 0;
   background: transparent;
-  border: 2px solid #333333;
-  color: #333333;
+  border: 2px solid #efefef;
+  color: #efefef;
   padding: 10px 20px;
   font-size: 1.2em;
   z-index: 200;
   position: relative;
 }
-/* line 180, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .inv:focus {
   outline: none;
 }
 
-/* line 185, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .slider {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 189, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .slider img {
   height: 600px;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 #how {
   margin-top: 400px;
 }
-/* line 197, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #how img {
   width: 100%;
 }

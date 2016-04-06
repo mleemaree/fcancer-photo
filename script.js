@@ -3,11 +3,10 @@
 jQuery(document).ready(function($){
 
   function openChat(){
-    $('#lp').addClass('hide');
-    $('#chat').removeClass('hide');
+    // $('#lp').addClass('hide');
+    // $('#chat').removeClass('hide');
     $("html, body").animate({ scrollTop: 0 });
     $('body').addClass('x');
-    $('#br').removeClass('shut');
   }
 
   function closeChat(){
@@ -19,12 +18,12 @@ jQuery(document).ready(function($){
 
   $('.inv').on('click', function(){
     $('#br').addClass('shut');
-    setTimeout(openChat, 2700);
+    openChat();
   });
 
   $('#back').on('click', function(){
     $('#br').addClass('shut');
-    setTimeout(closeChat, 2700);
+    closeChat();
   });
 
 });

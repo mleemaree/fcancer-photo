@@ -62,22 +62,35 @@ body{
 #br{
   height:100vh;
   width:100vw;
-  background:$white;
+  background:$black;
   position:fixed;
   z-index:100;
-  right:-97.1vw;
+  right:-100vw;
   top:0;
-  -webkit-transition-duration: 3s;
-  transition-duration: 3s;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s;
 }
 
+#phone{
+  background-image:url('../assets/img/flatphone.png');
+  background-size:contain;
+  height: 601px;
+  width:300px;
+  position:absolute;
+  z-index:110;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 
 .shut{
   -webkit-transition-duration: 3s;
   transition-duration: 3s;
-  -ms-transform: translate(-97.1vw,0); /* IE 9 */
-  -webkit-transform: translate(-97.1vw,0); /* Safari */
-  transform:translate(-97.1vw, 0);
+  -ms-transform: translate(-100vw,0); /* IE 9 */
+  -webkit-transform: translate(-100vw,0); /* Safari */
+  transform:translate(-100vw, 0);
 }
 
 .hide{
@@ -138,7 +151,7 @@ body{
   font-size:2em;
   width:122%;
   margin-left:80px;
-  color: $black;
+  color: $white;
 }
 
 .blur{
@@ -159,7 +172,8 @@ body{
 .angle{
   height: 80vh;
   width: 200vw;
-  background: rgba(201,233,225, 1);
+  // background: rgba(201,233,225, 1);
+  background: $black;
   position: absolute;
   top: 50vh;
   z-index: 1;
@@ -171,8 +185,8 @@ body{
   display: block;
   margin:38px auto 0;
   background: transparent;
-  border: 2px solid $black;
-  color: $black;
+  border: 2px solid $white;
+  color: $white;
   padding: 10px 20px;
   font-size: 1.2em;
   z-index:200;
