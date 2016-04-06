@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-  var s = skrollr.init();
+  // var s = skrollr.init();
   var titles = ['Photography', 'Events', 'Community'];
   var mySwiper = new Swiper ('.swiper-container', {
       // Optional parameters

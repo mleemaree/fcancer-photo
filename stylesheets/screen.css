@@ -16,17 +16,22 @@
   src: url("../assets/font/Avenir.ttc");
 }
 /* line 36, ../sass/screen.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 40, ../sass/screen.scss */
 body {
   background: #efefef;
   overflow-x: hidden;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .x {
   overflow-y: hidden;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 #bt {
   width: 100vw;
   height: 40px;
@@ -36,7 +41,7 @@ body {
   top: 0;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #bb {
   width: 100vw;
   height: 40px;
@@ -46,7 +51,7 @@ body {
   bottom: 0;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 #bl {
   height: 100vh;
   width: 40px;
@@ -57,7 +62,7 @@ body {
   top: 0;
 }
 
-/* line 73, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 #br {
   height: 100vh;
   width: 100vw;
@@ -70,7 +75,7 @@ body {
   transition-duration: 2s;
 }
 
-/* line 85, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 #phone {
   background-image: url("../assets/img/flatphone.png");
   background-size: contain;
@@ -85,7 +90,7 @@ body {
   right: 0;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 .shut {
   -webkit-transition-duration: 2s;
   transition-duration: 2s;
@@ -96,12 +101,12 @@ body {
   transform: translate(-100vw, 0);
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .hide {
   display: none;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 #chat {
   height: 100vh;
   width: 100vw;
@@ -110,7 +115,7 @@ body {
   overflow-y: hidden;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 123, ../sass/screen.scss */
 #back {
   height: 50px;
   position: absolute;
@@ -119,7 +124,7 @@ body {
   cursor: pointer;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 #content-wrapper {
   display: table;
   height: 100vh;
@@ -127,9 +132,10 @@ body {
   font-family: 'myriad';
   position: relative;
   z-index: 10;
+  overflow-y: hidden;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 #side {
   display: table;
   width: 55vh;
@@ -137,20 +143,20 @@ body {
   z-index: 110;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 #logo {
   width: 175px;
   margin: 70px;
   position: absolute;
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 #camera {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-/* line 154, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 #learn-more {
   display: table-cell;
   vertical-align: middle;
@@ -158,7 +164,7 @@ body {
   height: 100vh;
 }
 
-/* line 161, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .lt {
   font-family: 'avenir';
   font-size: 2em;
@@ -167,7 +173,7 @@ body {
   color: #efefef;
 }
 
-/* line 169, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .blur {
   background-image: url("../assets/img/cancer.jpg");
   background-size: cover;
@@ -183,7 +189,7 @@ body {
   filter: blur(5px);
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 189, ../sass/screen.scss */
 .angle {
   height: 100vh;
   width: 200vw;
@@ -195,7 +201,7 @@ body {
   left: -50vw;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .inv {
   display: block;
   margin: 38px auto 0;
@@ -207,12 +213,12 @@ body {
   z-index: 200;
   position: relative;
 }
-/* line 205, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .inv:focus {
   outline: none;
 }
 
-/* line 210, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .inv.two {
   margin: 50px auto;
   color: #333333;
@@ -220,27 +226,27 @@ body {
   font-family: 'myriad';
 }
 
-/* line 217, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .slider {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 221, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .slider img {
-  height: 600px;
+  height: 500px;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 #how {
   margin-top: 300px;
 }
-/* line 229, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #how img {
   width: 100%;
 }
 
-/* line 234, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 #recent {
   font: bold 2em/1.5em 'avenir';
   padding-top: 300px;
@@ -248,24 +254,24 @@ body {
   position: relative;
   z-index: 10;
 }
-/* line 240, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #recent h2 {
   position: absolute;
   left: 4%;
   font-size: 2em;
 }
-/* line 245, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 #recent img {
   width: 100%;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .swiper-container {
   width: 1000px;
   height: 600px;
 }
 
-/* line 255, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 .swiper-pagination-bullet {
   height: 50px;
   border-radius: 0;
@@ -275,14 +281,14 @@ body {
   font: bold 'avenir';
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets {
   left: 10px;
   margin: -5px;
   width: 21%;
   text-align: left;
 }
-/* line 269, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
   background-size: 200% 100%;
   background-image: linear-gradient(to right, #ea0e84 50%, rgba(0, 0, 0, 0) 50%);
@@ -290,11 +296,11 @@ body {
   -webkit-transition: background-position 1s;
   transition: background-position 1s;
 }
-/* line 275, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet:hover {
   background-position: left;
 }
-/* line 279, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet-active {
   -webkit-transition: background-position 1s;
   transition: background-position 1s;
@@ -302,12 +308,12 @@ body {
   text-decoration: underline;
 }
 
-/* line 287, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 .swiper-container {
   padding-left: 80px;
 }
 
-/* line 291, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 .angle2 {
   height: 80vh;
   width: 200vw;

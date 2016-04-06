@@ -1,45 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 344.9 232.8" enable-background="new 0 0 344.9 232.8" xml:space="preserve">
-<g id="Background">
-	<rect x="-227.6" y="-278.3" fill="none" width="800" height="800"/>
+<svg version="1.1"
+	 id="svg2" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:dc="http://purl.org/dc/elements/1.1/" inkscape:export-ydpi="25.049999" inkscape:export-xdpi="25.049999" inkscape:version="0.48.4 r9939" inkscape:export-filename="C:\Users\user\Downloads\CAMERA.png" sodipodi:docname="CAMERA.svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="355.9 -110 718.5 572.6"
+	 enable-background="new 355.9 -110 718.5 572.6" xml:space="preserve">
+<filter  width="1.5" height="1.5" id="filter4712" inkscape:menu="Non realistic 3D shaders" x="-0.25" y="-0.25" style="color-interpolation-filters:sRGB;" inkscape:label="Drop Shadow" color-interpolation-filters="sRGB" inkscape:menu-tooltip="Brushed aluminium shader">
+	<feGaussianBlur  id="feGaussianBlur4714" result="result8" stdDeviation="7"></feGaussianBlur>
+	<feComposite  id="feComposite4716" in="result8" in2="SourceGraphic" operator="xor" result="result6"></feComposite>
+	
+		<feDisplacementMap  id="feDisplacementMap4718" scale="75" in="result6" in2="result6" result="result4" xChannelSelector="A" yChannelSelector="A">
+		</feDisplacementMap>
+	<feComposite  id="feComposite4720" in="result4" in2="SourceGraphic" k1="1" operator="arithmetic" result="fbSourceGraphic">
+		</feComposite>
+	
+		<feColorMatrix  id="feColorMatrix4722" in="fbSourceGraphic" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0" result="fbSourceGraphicAlpha">
+		</feColorMatrix>
+	<feFlood  id="feFlood4724" in="fbSourceGraphic" flood-opacity="0.9" flood-color="rgb(0,0,0)" result="flood"></feFlood>
+	<feComposite  id="feComposite4726" in="flood" in2="fbSourceGraphic" operator="in" result="composite1"></feComposite>
+	<feGaussianBlur  id="feGaussianBlur4728" in="composite" result="blur" stdDeviation="9"></feGaussianBlur>
+	<feOffset  id="feOffset4730" dx="4" dy="4" result="offset"></feOffset>
+	<feComposite  id="feComposite4732" in="fbSourceGraphic" in2="offset" operator="over" result="composite2"></feComposite>
+</filter>
+<sodipodi:namedview  id="namedview4" bordercolor="#666666" inkscape:cy="584.12632" borderopacity="1" objecttolerance="10" guidetolerance="10" gridtolerance="10" pagecolor="#ffffff" inkscape:zoom="1" inkscape:cx="600" showgrid="false" inkscape:current-layer="svg2" inkscape:window-maximized="1" inkscape:window-y="-4" inkscape:window-x="58" inkscape:window-height="581" inkscape:window-width="962" inkscape:pageshadow="2" inkscape:pageopacity="0">
+	<inkscape:grid  type="xygrid" id="grid4581"></inkscape:grid>
+</sodipodi:namedview>
+<g id="g4755" transform="translate(19,-83)">
+	<path id="rect3296" fill="#1A1A1A" d="M418.5,71.8h555.4c45,0,81.5,36.5,81.5,81.5v310.8c0,45-36.5,81.5-81.5,81.5H418.5
+		c-45,0-81.5-36.5-81.5-81.5V153.3C336.9,108.3,373.4,71.8,418.5,71.8z"/>
+	<path id="rect3300" fill="#4D4D4D" d="M501.3-17.5h165.1c28.7,0,52.1,23.3,52.1,52.1v71.3c0,28.7-23.3,52.1-52.1,52.1H501.3
+		c-28.7,0-52.1-23.3-52.1-52.1V34.6C449.2,5.8,472.5-17.5,501.3-17.5z"/>
+	
+		<path id="path3092" sodipodi:cy="539.46155" sodipodi:cx="813.0769" sodipodi:type="arc" sodipodi:rx="56.153847" sodipodi:ry="55.384617" fill="#FFFFFF" d="
+		M970.2,368.2c0,30.6-25.1,55.4-56.1,55.4c-31,0-56.2-24.8-56.2-55.4c0,0,0,0,0-0.1c0-30.6,25.1-55.4,56.1-55.4
+		C945,312.7,970.1,337.5,970.2,368.2C970.2,368.1,970.2,368.1,970.2,368.2z"/>
+	<path id="path3094-9-2-1" inkscape:connector-curvature="0" sodipodi:nodetypes="sssss" fill="#333333" d="M675.9-9.2
+		c-4.2-3.1-61.1-4.1-88.6-4.1s-91.4,4.1-91.4,13.5c0,9.4,63.9,33.5,91.4,33.5S683.2-3.8,675.9-9.2z"/>
+	
+		<path id="path3027" sodipodi:cy="223.30769" sodipodi:cx="468.46155" sodipodi:type="arc" sodipodi:rx="34.615383" sodipodi:ry="37.692307" fill="#1A1A1A" stroke="#000000" stroke-width="0.9209" d="
+		M626.2,67.2c0,21.2-17.9,38.5-40,38.5c-22.1,0-40-17.2-40-38.5l0,0c0-21.2,17.9-38.5,40-38.5C608.2,28.7,626.2,45.9,626.2,67.2z"/>
+	
+		<path id="path3027-4" sodipodi:cy="223.30769" sodipodi:cx="468.46155" sodipodi:type="arc" sodipodi:rx="34.615383" sodipodi:ry="37.692307" fill="#333333" stroke="#000000" stroke-width="1.7101" d="
+		M606.2,69.5c0,12.3-9,22.3-20,22.3s-20-10-20-22.3l0,0c0-12.3,9-22.3,20-22.3S606.2,57.1,606.2,69.5z"/>
+	
+		<path id="path3060" sodipodi:cy="150.23077" sodipodi:cx="109.23077" sodipodi:type="arc" sodipodi:rx="13.846154" sodipodi:ry="32.307693" fill="#FFFFFF" stroke="#000000" stroke-width="2.1813" d="
+		M601.7,54.5c5.9,5.6,8.8,12.5,6.6,15.2c-2.2,2.8-8.7,0.4-14.6-5.2c0,0,0,0,0,0c-5.9-5.6-8.8-12.5-6.6-15.2
+		C589.3,46.5,595.8,48.8,601.7,54.5C601.7,54.4,601.7,54.5,601.7,54.5z"/>
+	
+		<path id="path3060-0" sodipodi:cy="150.23077" sodipodi:cx="109.23077" sodipodi:type="arc" sodipodi:rx="13.846154" sodipodi:ry="32.307693" fill="#FFFFFF" stroke="#000000" stroke-width="2.1813" d="
+		M579.4,72.9c5.9,5.6,8.8,12.5,6.6,15.2c-2.2,2.8-8.7,0.4-14.6-5.2c0,0,0,0,0,0c-5.9-5.6-8.8-12.5-6.6-15.2
+		C566.9,64.9,573.5,67.3,579.4,72.9C579.4,72.9,579.4,72.9,579.4,72.9z"/>
+	<path id="rect3291" fill="#23282E" d="M421.6,170.2h323c32.3,0,58.5,26.2,58.5,58.5v230.7c0,32.3-26.2,58.5-58.5,58.5h-323
+		c-32.3,0-58.5-26.2-58.5-58.5V228.7C363.1,196.4,389.3,170.2,421.6,170.2z"/>
+	<path id="rect3080" fill="#FFFFFF" stroke="#000000" d="M423.1,216.4h320c10.2,0,18.5,8.3,18.5,18.5v224.6
+		c0,10.2-8.3,18.5-18.5,18.5h-320c-10.2,0-18.5-8.3-18.5-18.5V234.8C404.6,224.7,412.9,216.4,423.1,216.4z"/>
+	
+		<path id="path3094" sodipodi:cy="534.84613" sodipodi:cx="800" sodipodi:type="arc" sodipodi:rx="33.846153" sodipodi:ry="33.846153" fill="#A19693" d="
+		M949.5,369.2c0,20.4-16.2,36.9-36.2,36.9c-20,0-36.2-16.5-36.2-36.9s16.2-36.9,36.2-36.9C933.4,332.2,949.5,348.8,949.5,369.2z"/>
+	
+		<path id="path3094-9" sodipodi:cy="534.84613" sodipodi:cx="800" sodipodi:type="arc" sodipodi:rx="33.846153" sodipodi:ry="33.846153" fill="#4D4D4D" d="
+		M870.4,443c0,8.5-7.2,15.4-16.2,15.4s-16.2-6.9-16.2-15.4s7.2-15.4,16.2-15.4S870.4,434.5,870.4,443z"/>
+	
+		<path id="path3094-9-4" sodipodi:cy="534.84613" sodipodi:cx="800" sodipodi:type="arc" sodipodi:rx="33.846153" sodipodi:ry="33.846153" fill="#FF5555" d="
+		M1018.5,444.3c0,8.5-7.2,15.4-16.2,15.4c-8.9,0-16.2-6.9-16.2-15.4s7.2-15.4,16.2-15.4C1011.3,428.9,1018.5,435.8,1018.5,444.3z"/>
+	
+		<path id="path3094-9-4-8" sodipodi:cy="534.84613" sodipodi:cx="800" sodipodi:type="arc" sodipodi:rx="33.846153" sodipodi:ry="33.846153" fill="#808080" d="
+		M1022.4,215.8c0,8.5-7.2,15.4-16.2,15.4c-8.9,0-16.2-6.9-16.2-15.4s7.2-15.4,16.2-15.4C1015.2,200.5,1022.4,207.3,1022.4,215.8z"/>
+	
+		<path id="path3094-9-4-8-8" sodipodi:cy="534.84613" sodipodi:cx="800" sodipodi:type="arc" sodipodi:rx="33.846153" sodipodi:ry="33.846153" fill="#808080" d="
+		M1020.8,161c0,8.5-7.2,15.4-16.2,15.4s-16.2-6.9-16.2-15.4s7.2-15.4,16.2-15.4S1020.8,152.5,1020.8,161z"/>
+	<text transform="matrix(1 0 0 1 900.5385 452.3846)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">MENU</text>
+	<text transform="matrix(1 0 0 1 816.415 483.8102)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">DELETE</text>
+	<text transform="matrix(1 0 0 1 964.0303 481.1179)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">SHARE</text>
+	<path id="rect3223" fill="#1A1A1A" stroke="#000000" d="M785.4,67.2h72.3c9.8,0,17.7,7.9,17.7,17.7l0,0c0,9.8-7.9,17.7-17.7,17.7
+		h-72.3c-9.8,0-17.7-7.9-17.7-17.7l0,0C767.7,75.1,775.6,67.2,785.4,67.2z"/>
+	<path id="path3094-9-2" inkscape:connector-curvature="0" sodipodi:nodetypes="sssss" fill="#999999" d="M671.6,147.3
+		c-4.2,2.9-61.1,3.8-88.6,3.8s-91.4-3.8-91.4-12.6s63.9-31.3,91.4-31.3S678.9,142.2,671.6,147.3z"/>
+	<path id="rect3300-6" fill="none" stroke="#666666" stroke-width="15" d="M502.1-19h165.1c28.7,0,52.1,23.3,52.1,52.1v71.3
+		c0,28.7-23.3,52.1-52.1,52.1H502.1c-28.7,0-52.1-23.3-52.1-52.1V33.1C450,4.3,473.3-19,502.1-19z"/>
+	<path id="rect3223-8" fill="#333333" stroke="#000000" stroke-width="1" d="M840.8,150.3h66.3c11.4,0,20.7,9.3,20.7,20.7v0
+		c0,11.4-9.3,20.7-20.7,20.7h-66.3c-11.4,0-20.7-9.3-20.7-20.7v0C820.2,159.6,829.4,150.3,840.8,150.3z"/>
+	
+		<path id="path3094-9-5" sodipodi:cy="534.84613" sodipodi:cx="800" sodipodi:type="arc" sodipodi:rx="33.846153" sodipodi:ry="33.846153" fill="#000055" stroke="#1A1A1A" stroke-width="2.147" d="
+		M945.2,481c0,8.5-7.2,15.4-16.2,15.4s-16.2-6.9-16.2-15.4s7.2-15.4,16.2-15.4S945.2,472.5,945.2,481z"/>
+	<rect id="rect4365" x="955.9" y="364" stroke="#000000" stroke-width="5" width="2.2" height="15"/>
+	<rect id="rect4365-8" x="866.9" y="365.5" stroke="#000000" stroke-width="5" width="2.2" height="15"/>
+	<rect id="rect4365-9" x="909.5" y="322.9" stroke="#000000" stroke-width="5" width="15" height="2.2"/>
+	<rect id="rect4365-9-2" x="909.5" y="410.9" stroke="#000000" stroke-width="5" width="15" height="2.2"/>
+	<g id="g4611" transform="matrix(0.22306794,0,0,0.17923674,475.29974,169.55666)">
+		<text transform="matrix(5.5792 0 0 5.5792 1397.4062 -413.6545)" fill="#FFFFFF" font-family="'ArialMT'" font-size="3.5847">SET</text>
+		<rect id="rect4467" x="1366" y="-562.5" fill="#1A1A1A" width="366" height="168"/>
+		<rect id="rect3225-1" x="1378.5" y="-561.4" fill="#333333" stroke="#000000" stroke-width="2.096" width="37" height="166.6"/>
+		<rect id="rect3225-1-4" x="1439.4" y="-561.8" fill="#333333" stroke="#000000" stroke-width="2.096" width="37" height="167.6"/>
+		
+			<rect id="rect3225-1-4-1" x="1499.4" y="-562.3" fill="#333333" stroke="#000000" stroke-width="2.096" width="37" height="167.6"/>
+		
+			<rect id="rect3225-1-4-13" x="1561.4" y="-561.8" fill="#333333" stroke="#000000" stroke-width="2.096" width="37" height="167.6"/>
+		<rect id="rect3225-1-4-8" x="1619.4" y="-562.8" fill="#333333" stroke="#000000" stroke-width="1" width="37" height="167.6"/>
+		
+			<rect id="rect3225-1-4-7" x="1679.4" y="-561.8" fill="#333333" stroke="#000000" stroke-width="2.096" width="37" height="167.6"/>
+	</g>
+	<g id="g4611-2" transform="matrix(0.22306794,0,0,0.19554633,526.47831,252.99507)">
+		<text transform="matrix(5.1139 0 0 5.1139 1397.4037 -357.815)" fill="#FFFFFF" font-family="'ArialMT'" font-size="3.9109">SET</text>
+		<rect id="rect4467-9" x="1366" y="-506.7" fill="#333333" width="366" height="168"/>
+		
+			<rect id="rect3225-1-3" x="1378.5" y="-505.5" fill="#333333" stroke="#000000" stroke-width="2.0067" width="37" height="166.6"/>
+		
+			<rect id="rect3225-1-4-19" x="1439.4" y="-506" fill="#333333" stroke="#000000" stroke-width="2.0067" width="37" height="167.6"/>
+		
+			<rect id="rect3225-1-4-1-8" x="1499.4" y="-506.5" fill="#333333" stroke="#000000" stroke-width="2.0067" width="37" height="167.6"/>
+		
+			<rect id="rect3225-1-4-13-6" x="1561.4" y="-506" fill="#333333" stroke="#000000" stroke-width="2.0067" width="37" height="167.6"/>
+		
+			<rect id="rect3225-1-4-8-5" x="1619.4" y="-507" fill="#333333" stroke="#000000" stroke-width="2.9717" width="37" height="167.6"/>
+		
+			<rect id="rect3225-1-4-7-0" x="1679.4" y="-506" fill="#333333" stroke="#000000" stroke-width="2.0067" width="37" height="167.6"/>
+	</g>
+	
+		<g id="path3094-6" sodipodi:cy="534.84613" sodipodi:cx="800" sodipodi:type="arc" sodipodi:rx="33.846153" sodipodi:ry="33.846153" filter="url(#filter4712)">
+		<ellipse cx="913.5" cy="369.5" rx="26.2" ry="26"/>
+	</g>
+	<text transform="matrix(1 0 0 1 978.5957 132.0361)" fill="#FFFFFF" font-family="'ArialMT'" font-size="20">SET</text>
 </g>
-<g id="Objects">
-	<g>
-		<g>
-			<defs>
-				<path id="SVGID_1_" d="M172.4,404.8c-156.4,0-283.1-126.8-283.1-283.1c0-156.4,126.7-283.1,283.1-283.1
-					c156.4,0,283.1,126.7,283.1,283.1"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  overflow="visible"/>
-			</clipPath>
-			<polygon clip-path="url(#SVGID_2_)" fill="none" points="37.2,266.1 374.6,71.3 599.9,296.5 356.6,539.9 285.4,578.5 
-				285.4,524.9 52.1,291.6 30,270.4 33.2,266.5 			"/>
-		</g>
-		<g>
-			<rect x="0" y="33.6" fill="#414042" width="344.9" height="199.3"/>
-			<circle fill="#D1D3D4" cx="212.1" cy="133.2" r="86.3"/>
-			<rect x="0" y="33.6" fill="#D1D3D4" width="344.9" height="37.7"/>
-			<rect x="0" y="195.1" fill="#D1D3D4" width="344.9" height="37.7"/>
-			<circle fill="#22363F" cx="212.1" cy="133.2" r="73.5"/>
-			<circle fill="#4E7387" stroke="#578CA3" stroke-width="5" stroke-miterlimit="10" cx="212.1" cy="133.2" r="53.1"/>
-			<circle fill="#204856" cx="212.1" cy="133.2" r="28.9"/>
-			<circle fill="#092830" cx="212.1" cy="133.2" r="18.2"/>
-			<path fill="#D1D3D4" d="M277.6,50.4c0,3.5-3,6.4-6.6,6.4H157.1c-3.7,0-6.6-2.9-6.6-6.4V6.4c0-3.5,3-6.4,6.6-6.4h113.9
-				c3.7,0,6.6,2.9,6.6,6.4V50.4z"/>
-			<circle opacity="0.6" fill="#FFFFFF" cx="178.4" cy="99.2" r="17.9"/>
-			<circle opacity="0.6" fill="#FFFFFF" cx="195.4" cy="121.7" r="5.7"/>
-			<path fill="#4E7387" d="M267.4,31.8c0,3.5-2.9,6.4-6.4,6.4h-53.5c-3.5,0-6.4-2.9-6.4-6.4V12.6c0-3.5,2.9-6.4,6.4-6.4H261
-				c3.5,0,6.4,2.9,6.4,6.4V31.8z"/>
-			<path fill="#22363F" d="M189.7,18.6c0,3.5-2.9,6.4-6.4,6.4h-11.2c-3.5,0-6.4-2.9-6.4-6.4v-3.4c0-3.5,2.9-6.4,6.4-6.4h11.2
-				c3.5,0,6.4,2.9,6.4,6.4V18.6z"/>
-			<circle fill="#BE1E2D" cx="183.2" cy="34" r="4.5"/>
-			<rect x="30" y="22.2" fill="#939598" width="42.4" height="11.4"/>
-			<rect x="317.1" y="33.6" opacity="0.3" fill="#939598" width="27.8" height="199.1"/>
-			<rect x="0" y="33.6" opacity="0.3" fill="#939598" width="13.9" height="199.1"/>
-		</g>
+<g>
+	<defs>
+		<path id="rect3080_1_" d="M442.8,133.4h320c10.2,0,18.5,8.3,18.5,18.5v224.6c0,10.2-8.3,18.5-18.5,18.5h-320
+			c-10.2,0-18.5-8.3-18.5-18.5V151.8C424.4,141.7,432.7,133.4,442.8,133.4z"/>
+	</defs>
+	<clipPath id="rect3080_2_">
+		<use xlink:href="#rect3080_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#rect3080_2_)">
+		
+			<image overflow="visible" width="730" height="502" xlink:href="cancer.jpg"  transform="matrix(0.5246 0 0 0.5246 411.373 132.4832)">
+		</image>
 	</g>
 </g>
 </svg>
