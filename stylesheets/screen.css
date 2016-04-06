@@ -213,26 +213,34 @@ body {
 }
 
 /* line 210, ../sass/screen.scss */
+.inv.two {
+  margin: 50px auto;
+  color: #333333;
+  border-color: #333333;
+  font-family: 'myriad';
+}
+
+/* line 217, ../sass/screen.scss */
 .slider {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 214, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .slider img {
   height: 600px;
 }
 
-/* line 220, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 #how {
   margin-top: 300px;
 }
-/* line 222, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 #how img {
   width: 100%;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 #recent {
   font: bold 2em/1.5em 'avenir';
   padding-top: 300px;
@@ -240,24 +248,24 @@ body {
   position: relative;
   z-index: 10;
 }
-/* line 233, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 #recent h2 {
   position: absolute;
   left: 4%;
   font-size: 2em;
 }
-/* line 238, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #recent img {
   width: 100%;
 }
 
-/* line 243, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .swiper-container {
   width: 1000px;
   height: 600px;
 }
 
-/* line 248, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .swiper-pagination-bullet {
   height: 50px;
   border-radius: 0;
@@ -267,14 +275,14 @@ body {
   font: bold 'avenir';
 }
 
-/* line 257, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets {
   left: 10px;
   margin: -5px;
   width: 21%;
   text-align: left;
 }
-/* line 262, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
   background-size: 200% 100%;
   background-image: linear-gradient(to right, #ea0e84 50%, rgba(0, 0, 0, 0) 50%);
@@ -282,11 +290,11 @@ body {
   -webkit-transition: background-position 1s;
   transition: background-position 1s;
 }
-/* line 268, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet:hover {
   background-position: left;
 }
-/* line 272, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet-active {
   -webkit-transition: background-position 1s;
   transition: background-position 1s;
@@ -294,12 +302,12 @@ body {
   text-decoration: underline;
 }
 
-/* line 280, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .swiper-container {
   padding-left: 80px;
 }
 
-/* line 284, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .angle2 {
   height: 80vh;
   width: 200vw;
