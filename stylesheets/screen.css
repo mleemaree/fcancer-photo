@@ -324,3 +324,96 @@ body {
   transform: rotate(-8deg);
   left: -50vw;
 }
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* line 310, ../sass/screen.scss */
+  #logo {
+    width: 100px;
+    margin: 20px;
+  }
+
+  /* line 315, ../sass/screen.scss */
+  #learn-more {
+    display: block;
+  }
+
+  /* line 319, ../sass/screen.scss */
+  .slider {
+    position: absolute;
+    top: 15vh;
+    right: 20px;
+  }
+  /* line 323, ../sass/screen.scss */
+  .slider img {
+    height: 150px;
+  }
+
+  /* line 328, ../sass/screen.scss */
+  .lt {
+    margin: 0;
+    padding: 0 10px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  /* line 339, ../sass/screen.scss */
+  #logo {
+    width: 100px;
+    margin: 20px;
+  }
+
+  /* line 344, ../sass/screen.scss */
+  #learn-more {
+    display: block;
+    padding-top: 45vh;
+    width: 30vw;
+    margin-left: 50px;
+  }
+
+  /* line 351, ../sass/screen.scss */
+  .slider {
+    position: absolute;
+    top: 15vh;
+    right: 20px;
+  }
+  /* line 355, ../sass/screen.scss */
+  .slider img {
+    height: 150px;
+  }
+
+  /* line 360, ../sass/screen.scss */
+  .lt {
+    margin: 0;
+    padding: 0 10px;
+    width: 163%;
+    font-size: 1.1em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* line 373, ../sass/screen.scss */
+  #learn-more {
+    padding-top: 60vh;
+  }
+
+  /* line 377, ../sass/screen.scss */
+  .slider {
+    position: absolute;
+    top: 22vh;
+    right: 30px;
+  }
+  /* line 381, ../sass/screen.scss */
+  .slider img {
+    height: 350px;
+  }
+
+  /* line 386, ../sass/screen.scss */
+  .lt {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* line 395, ../sass/screen.scss */
+  #learn-more {
+    padding-top: 50vh;
+  }
+}

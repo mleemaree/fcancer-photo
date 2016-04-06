@@ -303,3 +303,96 @@ body{
   transform: rotate(-8deg);
   left: -50vw;
 }
+
+@media only screen and (max-width : 767px)
+and (orientation: portrait){
+
+    #logo{
+      width:100px;
+      margin:20px;
+    }
+
+    #learn-more{
+      display:block;
+    }
+
+    .slider{
+      position: absolute;
+      top: 15vh;
+      right: 20px;
+      img{
+        height:150px;
+      }
+    }
+
+    .lt{
+      margin:0;
+      padding: 0 10px;
+      width:auto;
+    }
+
+  }
+
+  @media only screen and (max-width : 767px)
+  and (orientation: landscape){
+
+      #logo{
+        width:100px;
+        margin:20px;
+      }
+
+      #learn-more{
+        display:block;
+        padding-top:45vh;
+        width:30vw;
+        margin-left: 50px;
+      }
+
+      .slider{
+        position: absolute;
+        top: 15vh;
+        right: 20px;
+        img{
+          height:150px;
+        }
+      }
+
+      .lt{
+        margin:0;
+        padding: 0 10px;
+        width:163%;
+        font-size:1.1em;
+      }
+
+    }
+
+  @media only screen
+    and (min-width : 768px)
+    and (max-width : 1024px){
+
+    #learn-more{
+      padding-top:60vh;
+    }
+
+    .slider{
+      position:absolute;
+      top: 22vh;
+      right:30px;
+      img{
+        height:350px;
+      }
+    }
+
+    .lt{
+      width:100%;
+    }
+  }
+
+  @media only screen
+    and (min-width : 768px)
+    and (max-width : 1024px)
+    and (orientation : landscape){
+      #learn-more{
+        padding-top:50vh;
+      }
+    }
