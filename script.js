@@ -1,7 +1,7 @@
 jQuery(document).ready(function($){
 
   var s = skrollr.init();
-  var titles = ['Slide 1', 'Slide 2', 'Slide 3'];
+  var titles = ['Photography', 'Events', 'Community'];
   var mySwiper = new Swiper ('.swiper-container', {
       // Optional parameters
       direction: 'vertical',

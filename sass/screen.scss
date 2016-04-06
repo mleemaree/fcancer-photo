@@ -22,6 +22,12 @@ $white: #efefef;
   src: url('../assets/font/MyriadPro-Regular.otf');
 }
 
+@font-face{
+  font-family: 'myriad';
+  src: url('../assets/font/MyriadPro-Bold.otf');
+  font-weight:bold;
+}
+
 body{
   background: $white;
   overflow-x: hidden;
@@ -86,8 +92,8 @@ body{
 }
 
 .shut{
-  -webkit-transition-duration: 3s;
-  transition-duration: 3s;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s;
   -ms-transform: translate(-100vw,0); /* IE 9 */
   -webkit-transform: translate(-100vw,0); /* Safari */
   transform:translate(-100vw, 0);
@@ -214,22 +220,50 @@ body{
 }
 
 #recent{
-  padding-top:300px;
+  font: bold 2em/1.5em 'myriad';
+  padding-top:500px;
+  text-transform: uppercase;
+  img{
+    width:100%;
+  }
 }
 
 .swiper-container {
-    width: 800px;
-    height: 350px;
+    width: 1000px;
+    height: 600px;
 }
 
 .swiper-pagination-bullet{
-  width:50px;
   height:50px;
   border-radius:0;
   background:transparent;
   opacity: 1;
+  width:auto;
 }
 
 .swiper-container-vertical>.swiper-pagination-bullets{
   left: 10px;
+  margin: -5px;
+  width: 20%;
+  text-align: left;
+  .swiper-pagination-bullet{
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, $pink 50%, transparent 50%);
+    background-position:right;
+    -webkit-transition: background-position 1s;
+    transition: background-position 1s;
+    &:hover{
+      background-position:left;
+    }
+  }
+  .swiper-pagination-bullet-active{
+    -webkit-transition: background-position 1s;
+    transition: background-position 1s;
+    background-position: left;
+    text-decoration: underline;
+  }
+}
+
+.swiper-container{
+  padding-left:80px;
 }

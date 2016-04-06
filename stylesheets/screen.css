@@ -6,18 +6,23 @@
   font-family: 'myriad';
   src: url("../assets/font/MyriadPro-Regular.otf");
 }
-/* line 25, ../sass/screen.scss */
+@font-face {
+  font-family: 'myriad';
+  src: url("../assets/font/MyriadPro-Bold.otf");
+  font-weight: bold;
+}
+/* line 31, ../sass/screen.scss */
 body {
   background: #efefef;
   overflow-x: hidden;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .x {
   overflow-y: hidden;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 #bt {
   width: 100vw;
   height: 40px;
@@ -27,7 +32,7 @@ body {
   top: 0;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 #bb {
   width: 100vw;
   height: 40px;
@@ -37,7 +42,7 @@ body {
   bottom: 0;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #bl {
   height: 100vh;
   width: 40px;
@@ -48,7 +53,7 @@ body {
   top: 0;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 #br {
   height: 100vh;
   width: 100vw;
@@ -61,7 +66,7 @@ body {
   transition-duration: 2s;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 #phone {
   background-image: url("../assets/img/flatphone.png");
   background-size: contain;
@@ -76,10 +81,10 @@ body {
   right: 0;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .shut {
-  -webkit-transition-duration: 3s;
-  transition-duration: 3s;
+  -webkit-transition-duration: 2s;
+  transition-duration: 2s;
   -ms-transform: translate(-100vw, 0);
   /* IE 9 */
   -webkit-transform: translate(-100vw, 0);
@@ -87,12 +92,12 @@ body {
   transform: translate(-100vw, 0);
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .hide {
   display: none;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 #chat {
   height: 100vh;
   width: 100vw;
@@ -101,7 +106,7 @@ body {
   overflow-y: hidden;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 114, ../sass/screen.scss */
 #back {
   height: 50px;
   position: absolute;
@@ -110,7 +115,7 @@ body {
   cursor: pointer;
 }
 
-/* line 116, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 #content-wrapper {
   display: table;
   height: 100vh;
@@ -120,7 +125,7 @@ body {
   z-index: 10;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 #side {
   display: table;
   width: 55vh;
@@ -128,20 +133,20 @@ body {
   z-index: 110;
 }
 
-/* line 132, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 #logo {
   width: 175px;
   margin: 70px;
   position: absolute;
 }
 
-/* line 138, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 #camera {
   position: relative;
   margin-bottom: 10px;
 }
 
-/* line 143, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #learn-more {
   display: table-cell;
   vertical-align: middle;
@@ -149,7 +154,7 @@ body {
   height: 100vh;
 }
 
-/* line 150, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .lt {
   font-size: 2em;
   width: 122%;
@@ -157,7 +162,7 @@ body {
   color: #efefef;
 }
 
-/* line 157, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .blur {
   background-image: url("../assets/img/cancer.jpg");
   background-size: cover;
@@ -173,7 +178,7 @@ body {
   filter: blur(5px);
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .angle {
   height: 75vh;
   width: 200vw;
@@ -185,7 +190,7 @@ body {
   left: -50vw;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .inv {
   display: block;
   margin: 38px auto 0;
@@ -197,52 +202,85 @@ body {
   z-index: 200;
   position: relative;
 }
-/* line 194, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .inv:focus {
   outline: none;
 }
 
-/* line 199, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .slider {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
-/* line 203, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .slider img {
   height: 600px;
 }
 
-/* line 209, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 #how {
   margin-top: 400px;
 }
-/* line 211, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 #how img {
   width: 100%;
 }
 
-/* line 216, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 #recent {
-  padding-top: 300px;
+  font: bold 2em/1.5em 'myriad';
+  padding-top: 500px;
+  text-transform: uppercase;
+}
+/* line 226, ../sass/screen.scss */
+#recent img {
+  width: 100%;
 }
 
-/* line 220, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .swiper-container {
-  width: 800px;
-  height: 350px;
+  width: 1000px;
+  height: 600px;
 }
 
-/* line 225, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .swiper-pagination-bullet {
-  width: 50px;
   height: 50px;
   border-radius: 0;
   background: transparent;
   opacity: 1;
+  width: auto;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .swiper-container-vertical > .swiper-pagination-bullets {
   left: 10px;
+  margin: -5px;
+  width: 20%;
+  text-align: left;
+}
+/* line 249, ../sass/screen.scss */
+.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, #ea0e84 50%, rgba(0, 0, 0, 0) 50%);
+  background-position: right;
+  -webkit-transition: background-position 1s;
+  transition: background-position 1s;
+}
+/* line 255, ../sass/screen.scss */
+.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet:hover {
+  background-position: left;
+}
+/* line 259, ../sass/screen.scss */
+.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet-active {
+  -webkit-transition: background-position 1s;
+  transition: background-position 1s;
+  background-position: left;
+  text-decoration: underline;
+}
+
+/* line 267, ../sass/screen.scss */
+.swiper-container {
+  padding-left: 80px;
 }
