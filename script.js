@@ -1,6 +1,21 @@
-// var s = skrollr.init();
-
 jQuery(document).ready(function($){
+
+  var s = skrollr.init();
+  var titles = ['Page 1', 'Page 2', 'Page 3'];
+  var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'vertical',
+      loop: true,
+
+      // If we need pagination
+      pagination: '.swiper-pagination',
+      paginationClickable: true,
+      paginationBulletRender: function (index, className) {
+          return '<span class="' + className + '">' + titles[index] + '</span>';
+      }
+
+    });
+
 
   function openChat(){
     // $('#lp').addClass('hide');

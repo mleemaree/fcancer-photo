@@ -175,7 +175,7 @@ body {
 
 /* line 172, ../sass/screen.scss */
 .angle {
-  height: 80vh;
+  height: 75vh;
   width: 200vw;
   background: #333333;
   position: absolute;
@@ -220,4 +220,24 @@ body {
 /* line 211, ../sass/screen.scss */
 #how img {
   width: 100%;
+}
+
+/* line 216, ../sass/screen.scss */
+#recent {
+  padding-top: 300px;
+}
+
+/* line 220, ../sass/screen.scss */
+.swiper-container {
+  width: 800px;
+  height: 350px;
+}
+
+/* line 225, ../sass/screen.scss */
+.swiper-pagination-bullet {
+  width: 50px;
+  height: 50px;
+  border-radius: 0;
+  background: transparent;
+  opacity: 1;
 }
