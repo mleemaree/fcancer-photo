@@ -33,7 +33,7 @@ jQuery(document).ready(function($){
 
   $('.inv').on('click', function(){
     $('#br').addClass('shut');
-    setTimeout(openChat, 500);
+    setTimeout(openChat, 2000);
   });
 
   $('#back').on('click', function(){
