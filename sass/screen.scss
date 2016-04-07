@@ -368,7 +368,7 @@ and (orientation: portrait){
 
   @media only screen
     and (min-width : 768px)
-    and (max-width : 1024px){
+    and (max-width : 1320px){
 
     #learn-more{
       padding-top:60vh;
@@ -376,7 +376,7 @@ and (orientation: portrait){
 
     .slider{
       position:absolute;
-      top: 22vh;
+      top: 9vh;
       right:30px;
       img{
         height:350px;
@@ -390,7 +390,7 @@ and (orientation: portrait){
 
   @media only screen
     and (min-width : 768px)
-    and (max-width : 1024px)
+    and (max-width : 1320px)
     and (orientation : landscape){
       #learn-more{
         padding-top:50vh;
